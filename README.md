@@ -1,41 +1,36 @@
-# Software Engineer Resume Template
+# LaTeX Resume Template for Software Engineers
 
-This repository contains a LaTeX template for a professional software engineer resume that I have personally used to secure numerous interviews. This template is designed to highlight technical skills, project experience, and achievements in a clean and organized format.
+A battle-tested resume template built in LaTeX — the same format I used to land interviews at top tech companies. Drop in your details, compile, and walk into your next interview with a resume that actually gets read.
 
-## Overview
+## What's Inside
 
-### Features
+- Minimal, recruiter-friendly layout that passes ATS scanners
+- Pre-structured sections for experience, projects, education, and skills
+- XYZ-method bullet point placeholders to help you frame achievements with real impact
+- Straightforward to tweak — fonts, spacing, and sections are all clearly labeled
 
-- Clean and modern design.
-- Easy to customize and tailor for different job applications.
-- Sections for technical skills, work experience, projects, and education.
-- Structured layout to emphasize key information.
+## Getting Started
 
-## How to Use
+**Option A — Overleaf (easiest)**
+Just paste the contents of `resume.tex` into a new Overleaf project and start editing. No setup required.
 
-1. **Prerequisites:** Install LaTeX distribution (e.g., TeX Live, MiKTeX), or create an Overleaf account.
+**Option B — Local**
 
-2. **Clone the Repository:**
-
+1. Install a LaTeX distribution: [TeX Live](https://www.tug.org/texlive/) or [MiKTeX](https://miktex.org/)
+2. Clone the repo:
     ```bash
-    git clone https://github.com/yourusername/software-engineer-resume.git
-    cd software-engineer-resume
+    git clone https://github.com/yourusername/resume-template.git
+    cd resume-template
     ```
+3. Open `resume.tex` in your editor of choice and fill in your details
+4. Compile to PDF:
+    ```bash
+    pdflatex resume.tex
+    ```
+5. Open the generated `resume.pdf` and make sure everything looks right before sending it out
 
-    - You can also simply copy paste this into Overleaf!
+## Tips
 
-3. **Edit the Resume:**
-
-    - Open `main.tex` in your preferred LaTeX editor.
-    - Customize the content under each section (skills, experience, projects, education) according to your own details.
-    - Modify the styling, fonts, or colors as needed.
-
-4. **Compile the Resume:**
-
-    - Compile the LaTeX file (`main.tex`) using your LaTeX distribution.
-    - This will generate the PDF output (`resume.pdf`) with your updated resume.
-
-5. **Preview and Print:**
-
-    - Review the `resume.pdf` to ensure everything appears as expected.
-    - Print or save the PDF to share with potential employers.
+- Follow the **XYZ format** for every bullet: *Accomplished [X] as measured by [Y], by doing [Z]*. Quantified bullets outperform vague ones every time.
+- Keep it to one page.
+- Tailor the skills section to match the job posting — ATS tools are keyword-matching your resume against the job description.

@@ -1,0 +1,204 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Your Name} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{(123) 456-7890} ~
+    {\faEnvelope\  \underline{yourname@example.com}} ~
+    {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/your-profile/}{linkedin.com/in/your-profile}}  ~
+    {\faGithub\ \underline{\href{https://github.com/your-username}{github.com/your-username}} ~
+    {\faBriefcase\ \underline{\href{https://your-portfolio.vercel.app/}{your-portfolio.vercel.app/}}
+    \vspace{-8pt}
+\end{center}
+
+ %-----------EDUCATION-----------
+\section{Education} \\[1mm]
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Your University Name}{Expected Graduation: Month Year}
+      {Bachelor of Your Degree | Minor Your Minor
+      }{City, Province/State}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \resumeItem {Your Scholarship or Award | \textbf{GPA: X.XX}}
+        \vspace{-7pt}
+        \resumeItem {Courses: Course 1, Course 2, Course 3, Course 4, Course 5, Course 6, Course 7}
+    \resumeItemListEnd
+    \vspace{-12pt}
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{Company Name}{Month Year -- Month Year}{Your Job Title}{City, Province/State}
+                \resumeItemListStart
+                    \resumeItem{Improved \textbf{[system or process]} performance by \textbf{X\%} as measured by \textbf{[metric]}, by designing and implementing \textbf{[specific technology or approach]}}
+                    \resumeItem{Reduced \textbf{[cost or time]} by \textbf{\$X,000 annually} as measured by \textbf{[metric]}, by building \textbf{[tool or pipeline]} using \textbf{[technology stack]}}
+                    \resumeItem{Increased \textbf{[team or system capability]} by \textbf{X\%} as measured by \textbf{[KPI]}, by leading the integration of \textbf{[feature or component]} across \textbf{[scope]}}
+                    \resumeItemListEnd
+            \resumeSubheading{Company Name}{Month Year -- Month Year}{Your Job Title}{City, Province/State}
+                \resumeItemListStart
+                    \resumeItem{Accelerated \textbf{[workflow or process]} by \textbf{X\%} as measured by \textbf{[metric]}, by architecting \textbf{[number]+} \textbf{[components]} using \textbf{[technology]}}
+                    \resumeItem{Cut \textbf{[execution time or cost]} by \textbf{X\%} as measured by \textbf{[metric]}, by implementing \textbf{[number]+} \textbf{[feature or integration]} with \textbf{[technology stack]}}
+                    \resumeItem{Enhanced \textbf{[scalability or reliability]} for \textbf{[scope or user base]}, by containerizing and deploying \textbf{[application]} using \textbf{[technology]} on \textbf{[cloud platform]}}
+                    \resumeItemListEnd
+            \resumeSubheading{Company Name}{Month Year -- Month Year}{Your Job Title}{City, Province/State}
+                \resumeItemListStart
+                    \resumeItem{Reduced \textbf{[transfer or processing] time} by \textbf{X\%} as measured by \textbf{[metric]}, by building and deploying a \textbf{[language]}-based pipeline on \textbf{[cloud platform]}}
+                    \resumeItem{Improved \textbf{query performance} by \textbf{X\%} as measured by \textbf{[metric]}, by centralizing a \textbf{[database type]} infrastructure for \textbf{[number]+} stakeholders on \textbf{[cloud platform]}}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+            {\textbf{{Project Name}} $|$ \emph{\href{https://your-project.vercel.app/}{Website}{ $|$ }\href{https://github.com/your-username/your-repo}{Source Code}}}{Tech $|$ Stack $|$ Here}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Developed and deployed a full-stack web application that \textbf{[describe impact]} for \textbf{[number]+} users}
+            \resumeItem{Utilized \textbf{[Database]} for data storage, \textbf{[Backend Framework]} for a \textbf{RESTful API}, and \textbf{[Frontend Framework]} for the user interface}
+          \resumeItemListEnd
+ \vspace{-20pt}
+ \resumeProjectHeading
+            {\textbf{{Project Name}} $|$ \emph{\href{https://your-project.com/}{Website}}}{Tech $|$ Stack $|$ Here}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{\textbf{Led the development} of a \textbf{[type]} application for \textbf{[number]+} users, utilizing \textbf{[Frontend Framework]} for the frontend, \textbf{[ORM]} as the ORM, \textbf{[Database]} for storage, and a \textbf{[Backend Framework]} backend}
+          \resumeItemListEnd
+ \vspace{-17pt}
+ \resumeProjectHeading
+{\textbf{{Project Name}} $|$ \emph{\href{https://your-project.vercel.app/}{Website}{ $|$ }\href{https://github.com/your-username/your-repo}{Source Code}}}{Tech $|$ Stack $|$ Here}
+\\[5mm]
+\resumeItemListStart
+\resumeItem{Created a \textbf{[model or tool]} to \textbf{[solve problem]}, integrating \textbf{[technique 1]} with \textbf{[library]} and \textbf{[technique 2]}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-20pt}
+%-----------LEADERSHIP-----------
+\section{Leadership}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+                   \resumeProjectHeading
+            {\textbf{{Club / Initiative}} }{Month Year -- Present}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Created \textbf{[type]} content for \textbf{[number]+} followers, achieving \textbf{[number]+} impressions per month}
+            \resumeItem{Produced tutorials on advanced topics such as \textbf{[topic 1]}, \textbf{[topic 2]}, and \textbf{[topic 3]}}
+          \resumeItemListEnd
+          \resumeSubHeadingListEnd
+ \vspace{-12pt}
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Language 1, Language 2, Language 3, Language 4, Language 5} \\[1mm]
+     \textbf{Developer Tools}{: Tool 1, Tool 2, Tool 3, Tool 4, Tool 5} \\[1mm]
+     \textbf{Libraries/Frameworks}{: Framework 1, Framework 2, Framework 3, Framework 4} \\ [1mm]
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-15pt}
+
+
+
+
+\end{document}
