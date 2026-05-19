@@ -1,4 +1,4 @@
-# LaTeX Resume Template for Software Engineers
+# LaTeX Resume Template
 
 A resume template written in LaTeX. It includes common sections for software engineering resumes and uses a clean, readable layout.
 
