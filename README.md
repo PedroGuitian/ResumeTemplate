@@ -1,20 +1,20 @@
 # LaTeX Resume Template for Software Engineers
 
-A battle-tested resume template built in LaTeX — the same format I used to land interviews at top tech companies. Drop in your details, compile, and walk into your next interview with a resume that actually gets read.
+A resume template written in LaTeX. It includes common sections for software engineering resumes and uses a clean, readable layout.
 
 ## What's Inside
 
-- Minimal, recruiter-friendly layout that passes ATS scanners
+- Simple single-column layout that works with ATS scanners
 - Pre-structured sections for experience, projects, education, and skills
-- XYZ-method bullet point placeholders to help you frame achievements with real impact
-- Straightforward to tweak — fonts, spacing, and sections are all clearly labeled
+- Bullet point placeholders using the XYZ format to help describe achievements
+- Fonts, spacing, and sections are labeled so they are easy to adjust
 
 ## Getting Started
 
-**Option A — Overleaf (easiest)**
-Just paste the contents of `resume.tex` into a new Overleaf project and start editing. No setup required.
+**Option A: Overleaf**
+Paste the contents of `resume.tex` into a new Overleaf project and start editing. No local setup needed.
 
-**Option B — Local**
+**Option B: Local**
 
 1. Install a LaTeX distribution: [TeX Live](https://www.tug.org/texlive/) or [MiKTeX](https://miktex.org/)
 2. Clone the repo:
@@ -22,15 +22,15 @@ Just paste the contents of `resume.tex` into a new Overleaf project and start ed
     git clone https://github.com/yourusername/resume-template.git
     cd resume-template
     ```
-3. Open `resume.tex` in your editor of choice and fill in your details
+3. Open `resume.tex` in your editor and fill in your details
 4. Compile to PDF:
     ```bash
     pdflatex resume.tex
     ```
-5. Open the generated `resume.pdf` and make sure everything looks right before sending it out
+5. Open `resume.pdf` and review the output before sending
 
 ## Tips
 
-- Follow the **XYZ format** for every bullet: *Accomplished [X] as measured by [Y], by doing [Z]*. Quantified bullets outperform vague ones every time.
+- Use the **XYZ format** for bullet points: *Accomplished [X] as measured by [Y], by doing [Z]*. Specific, quantified bullets are more useful than general ones.
 - Keep it to one page.
-- Tailor the skills section to match the job posting — ATS tools are keyword-matching your resume against the job description.
+- Update the skills section to match the job posting, since ATS tools compare your resume against the job description by keyword.
