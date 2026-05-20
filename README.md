@@ -4,7 +4,7 @@ A resume template written in LaTeX. It includes common sections for software eng
 
 ## What's Inside
 
-- Simple single-column layout that works with ATS scanners
+- Simple single-column layout
 - Pre-structured sections for experience, projects, education, and skills
 - Bullet point placeholders using the XYZ format to help describe achievements
 - Fonts, spacing, and sections are labeled so they are easy to adjust
